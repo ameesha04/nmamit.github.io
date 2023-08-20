@@ -1,0 +1,103 @@
+body {
+    background-image: url(images/background.jpg);
+    font-family: 'Chakra Petch', sans-serif;
+    margin: auto;
+    padding: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #284460;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 250px;
+    height: 100px;
+}
+
+.clgname {
+    text-align: right;
+}
+
+.menu {
+    background-color: #003366;
+    list-style: none;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    text-decoration: initial;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #FF5722;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.vision-mission {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.vision {
+    width: 45%;
+}
+
+.vis {
+    width: 100%;
+}
+
+.mission {
+    width: 45%;
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mission h2 {
+    color: #FF5722;
+}
+
+.additional-content {
+    margin-top: 20px;
+}
+
+.additional-content h2 {
+    color: #003366;
+}
+
+.additional-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.additional-content p {
+    margin-top: 10px;
+}

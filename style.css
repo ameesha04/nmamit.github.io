@@ -1,0 +1,99 @@
+body {
+    background-image: url(images/nitteback.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: rgba(53, 50, 50, 0.562);
+    margin-top: 0%;
+    transition: background-color 0.3s ease-in-out;
+
+
+
+
+}
+
+.logo img {
+    width: 278px;
+    height: 100px;
+    padding-right: 53px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: rgba(55, 57, 58, 0.774);
+    list-style: none;
+    padding: 10px;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(53, 50, 50, 0.562);
+    margin: 0;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    margin: 5px 0;
+
+}
+
+
+
+
+li a:hover {
+    background-color: white;
+    color: rgba(58, 57, 57, 0.377)
+}
+
+.aboutnit {
+    padding: 55px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: rgba(53, 50, 50, 0.562);
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 74px;
+    height: 770px;
+    width: 1550px;
+
+}
+
+footer {
+    background-color: rgba(11, 10, 10, 0.666);
+    height: 90px;
+    padding: 4px;
+    ;
+    margin: 0;
+}
