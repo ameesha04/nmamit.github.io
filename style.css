@@ -1,10 +1,4 @@
-@media screen and (max-width: 768px) {
-    /* Add CSS rules for smaller screens here */
-    .aboutnit {
-        font-size: 18px;
-        /* Adjust other styles as needed */
-    }
-}
+
 body {
     background-image: url(images/nitteback.jpg);
 
