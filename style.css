@@ -1,3 +1,10 @@
+@media screen and (max-width: 768px) {
+    /* Add CSS rules for smaller screens here */
+    .aboutnit {
+        font-size: 18px;
+        /* Adjust other styles as needed */
+    }
+}
 body {
     background-image: url(images/nitteback.jpg);
 
@@ -85,8 +92,7 @@ li a:hover {
     border: 1px solid black;
     border-radius: 50px;
     margin: 74px;
-    height: 770px;
-    width: 1550px;
+   
 
 }
 
